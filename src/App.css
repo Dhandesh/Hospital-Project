@@ -1,0 +1,133 @@
+/*author Dhandesh*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body{
+display: flex;
+flex-direction: column;
+padding-bottom: 50px;
+background-color: whitesmoke;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  background-color: #333;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer {
+
+ bottom: 0;
+ left: 0;
+ width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.content {
+  flex: 1;  /* This makes sure the content takes the remaining space */
+  padding: 20px;
+
+}
+
+
+/* this start*/
+ 
+ 
+#text{
+  font-size: 55px;
+  background:-webkit-linear-gradient(black,#d80808,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Doctor,Department card */
+#effect {
+  transition: transform 0.3s, box-shadow 0.3s;
+}        
+#effect:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.aabb{
+  text-indent: 50px;
+}
+
+/*contact1*/
+#th:hover{
+  background-color: red;
+  color: white;  
+} 
+#re{
+ padding: 0px 20px;
+ border: 2px solid rgb(129, 19, 19);
+}
+sup{
+ color:red;
+ font-family:'Times New Roman', Times, serif;
+ font-size: 20%;
+}
+#form{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+#recep{
+  opacity: 1;
+}
+#ra{
+ color: red;
+ padding: 0px 5px 30px;
+}
+span{
+ padding: 0px 5px 30px;
+ text-align: left;
+}
+#th{
+ border: 2px solid red;
+ color: white;
+}
+#ss{
+ position: relative;
+}
+#hos{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ opacity: 0.6;
+}
+
+Form.Check label{
+  color:white;
+}

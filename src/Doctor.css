@@ -1,0 +1,33 @@
+ .modal-content {
+    background-color: #ecdedf;
+    border-radius: 10px;
+  }
+  .modal-header {
+    border-bottom: none;
+    color: aqua;
+  }
+  .modal-title {
+    color: #b61827;
+    font-weight: bold;
+  }
+  .profile-subtitle {
+    color: #6c757d; 
+     margin-bottom: 20px;
+  }
+  .profile-detail {
+    color: #343a40;
+    margin-bottom: 15px;
+  }
+  .profile-detail span {
+    color: #b61827;
+    font-weight: bold;
+  }
+  .underline {
+    border: 2px solid #b61827;
+    width: 50px;
+    margin-bottom: 20px;
+  } */ 
+   .modal-dialog{
+    background-color: #e6e4f0;
+  } 
+  

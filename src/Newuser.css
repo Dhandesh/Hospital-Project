@@ -1,0 +1,146 @@
+    .container {
+        display: flex;
+        margin-top: 15px;
+    }
+  
+  .form-container1 {
+ 
+    flex: 1; 
+    justify-content: right;
+    align-items: center; 
+    background: #e6b0b0;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+  }
+
+.drp{
+  width: 100px;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+ .main{
+  width: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+ }
+
+  .form-group {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 400px; 
+    height: auto; 
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    /* color: #c8eb2a83; */
+  }
+  
+  label span {
+    color: red;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .phone-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .phone-container select {
+    width: 30%;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .radio-group label {
+    font-size: 14px;
+    color: #333;
+  }
+
+  .submit-btn {
+    display: block;
+    margin: 20px auto; /* Centers the button horizontally and adds margin */
+    background-color: #007bff;
+    color: #fff;
+    border: none;   
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+
+  
+  .radio-group {
+    display: flex;
+  gap: 20px; 
+    align-items: center; 
+  }
+
+  .radio-label {
+    display: flex;
+    align-items: center;
+  }
+
+   .form{
+    background: linear-gradient(rgba(212, 118, 25, 0.5), rgba(232, 236, 239, 0.5)),
+    url('D:\/New folder\/simple-project\/src\/image\/appimg4.jpg');
+    height: 130vh;
+    opacity: 0.9;  
+    background-size: cover;   
+    gap: 8px; 
+    background-color: rgba(26, 122, 217, 0.5);
+    z-index: 1;
+    /* background-attachment: fixed; */
+  }
+  
+
+  .form-control {
+    width: 80%; /* Reduce input field size */
+    margin: 0 auto; /* Center the fields horizontally */
+  }
+  
+  .form-select {
+    width: 80%; /* Reduce select field size */
+    margin: 0 auto;
+  }
