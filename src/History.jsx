@@ -21,7 +21,7 @@ const History = () => {
               <Card.Img variant="top" alt='' src={cm} />
               <Card.Body>
                 <Card.Text className="text-center bg-light p-1">
-                  <h2>Dr. Dhivakar</h2><br />Founder & Chairman
+                  <h2>Dr. Dhakshina</h2><br />Founder & Chairman
                 </Card.Text>
               </Card.Body>
             </Card>
